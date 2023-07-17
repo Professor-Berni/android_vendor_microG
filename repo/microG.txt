@@ -1,5 +1,5 @@
 # microG
 -priv-app/org.microg.gms.droidguard-4.apk:priv-app/DroidGuard.apk;PRESIGNED
--priv-app/com.android.vending-22.apk:priv-app/FakeStore.apk;PRESIGNED
--priv-app/com.google.android.gms-223616052.apk:priv-app/GmsCore.apk;PRESIGNED
+-priv-app/com.android.vending-30.apk:priv-app/FakeStore.apk;PRESIGNED
+-priv-app/com.google.android.gms-223616054.apk:priv-app/GmsCore.apk;PRESIGNED
 -priv-app/com.google.android.gsf-8.apk:priv-app/GsfProxy.apk;PRESIGNED
