@@ -38,14 +38,3 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "DroidGuard",
-	owner: "microG",
-	apk: "proprietary/priv-app/DroidGuard.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
