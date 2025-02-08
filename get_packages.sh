@@ -41,7 +41,7 @@ function download_package() {
     fi
 
     echo "- Downloading package: $pkg"
-    cmd="wget --quiet -O $pkg_path $repo/$pkg 2>&1"
+    cmd="wget --retry-on-http-error=429 --quiet -O $pkg_path $repo/$pkg 2>&1"
     out=$(eval $cmd)
     ret=$?
     if [ $ret -ne 0 ]; then
